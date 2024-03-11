@@ -7,7 +7,7 @@ interface ComponentProps {
 const LandingPage: React.FC<ComponentProps> = ({ className }) => {
 	return (
 		<div className={`${className}`}>
-			<PrimaryButton>test</PrimaryButton>
+			<PrimaryButton> No one shall</PrimaryButton>
 		</div>
 	);
 };
