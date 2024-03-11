@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "OswaldFont";
+	src: url("https://fonts.gstatic.com/s/oswald/v40/sKZdTFW2ewjIH0WjEjA0WesrF6Rv2G11.woff2")
+		format("woff2");
+	font-weight: 200 700;
+	font-style: normal;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
