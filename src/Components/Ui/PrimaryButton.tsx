@@ -10,7 +10,7 @@ const PrimaryButton: React.FC<ComponentProps> = ({ children, className }) => {
 		<button
 			className={` bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] ${className} w-[155px] h-[48px] text-black rounded-3xl flex justify-center items-center hover:shadow-xl  `}
 		>
-			<p className="font-Oswald  font-bold text-[#302C42]">{children}</p>
+			<p className="font-Oswald   text-[#302C42]">{children}</p>
 		</button>
 	);
 };

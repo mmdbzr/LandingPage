@@ -7,7 +7,7 @@ interface ComponentProps {
 const Logo: React.FC<ComponentProps> = ({ className }) => {
 	return (
 		<svg
-			className={`${className} `}
+			className={`${className}  fill-gradient-to-r from-[#8176AF] to-[#C0B7E8] h-[110px] w-[110px]`}
 			viewBox="0 0 102 103"
 			xmlns="http://www.w3.org/2000/svg"
 		>
