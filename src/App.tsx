@@ -1,9 +1,9 @@
-import LandingPage from "./Pages/LandingPage";
+import LandingPage from "./Pages/Landing/LandingPage";
 
 function App() {
 	return (
-		<div className="bg-[#302C42] ">
-			<div className="w-[80%]">
+		<div className="bg-[#302C42] h-screen">
+			<div className="mx-16  bg-transparent">
 				{" "}
 				<LandingPage />
 			</div>

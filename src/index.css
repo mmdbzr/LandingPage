@@ -5,6 +5,14 @@
 	font-weight: 200 700;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "Rajdhani";
+	src: url("https://fonts.gstatic.com/s/rajdhani/v12/LDI2apCSOBg7S-QT7pasEcOecG-AuIl1ew.woff2")
+		format("woff2");
+	font-weight: 300 400 500 600 700;
+	font-style: normal;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

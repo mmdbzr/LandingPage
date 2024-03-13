@@ -5,6 +5,13 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				Oswald: ["OswaldFont", "sans"],
+				Rajdhani: ["Rajdhani", "Arial", "sans-serif"],
+			},
+			colors: {
+				custom_gradient: {
+					start: "#8176AF",
+					end: "#C0B7E8",
+				},
 			},
 		},
 	},
