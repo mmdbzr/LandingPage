@@ -8,7 +8,7 @@ interface ComponentProps {
 const PrimaryButton: React.FC<ComponentProps> = ({ children, className }) => {
 	return (
 		<button
-			className={` bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] ${className} w-[155px] h-[48px] text-black rounded-3xl flex justify-center items-center hover:shadow-xl  `}
+			className={` bg-gradient-to-tr from-[#8176AF] to-[#C0B7E8] ${className} w-[155px] h-[48px] text-black rounded-3xl flex justify-center items-center hover:shadow-xl  `}
 		>
 			<p className="font-Oswald   text-[#302C42]">{children}</p>
 		</button>

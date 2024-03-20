@@ -9,7 +9,7 @@ interface ComponentProps {
 const HeroSections: React.FC<ComponentProps> = ({ className }) => {
 	return (
 		<div
-			className={`${className} flex space-x-56 justify-center items-center pt-12`}
+			className={`${className} flex space-x-56 justify-center items-center w-full `}
 		>
 			<div className="space-y-10">
 				<div className="text-6xl font-bold ">
@@ -35,7 +35,7 @@ const HeroSections: React.FC<ComponentProps> = ({ className }) => {
 			<div>
 				<img
 					src={Image}
-					className="rounded-bl-[190px] rounded-[70px] shadow-xl hover:shadow-[#5C5C5C]"
+					className="rounded-bl-[190px] rounded-[70px] shadow-2xl shadow-black  "
 				></img>
 			</div>
 		</div>
