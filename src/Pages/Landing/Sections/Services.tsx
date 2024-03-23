@@ -27,7 +27,7 @@ const Services: React.FC<ComponentProps> = ({ className }) => {
 				</p>
 			</div>
 
-			<div className={`grid grid-cols-4 mt-28`}>
+			<div className={`grid grid-cols-4 mt-28 gap-5`}>
 				<Article
 					src={simulation}
 					heading="SIMULATION"

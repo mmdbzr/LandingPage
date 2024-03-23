@@ -8,7 +8,9 @@ interface ComponentProps {
 
 const Navbar: React.FC<ComponentProps> = ({ className }) => {
 	return (
-		<div className={`${className} flex justify-between items-center`}>
+		<div
+			className={`${className} flex justify-between w-full items-center`}
+		>
 			<div className="flex justify-between items-center space-x-4">
 				<Logo />
 				<p className=" font-thin bg-gradient-to-r from-[#8176AF] to-[#C0B7E8]  bg-clip-text text-5xl font-Rajdhani inline-block text-transparent">

@@ -13,6 +13,9 @@ module.exports = {
 					end: "#C0B7E8",
 				},
 			},
+			backgroundImage: (theme) => ({
+				tech: "url('../src/assets/tech1.svg')",
+			}),
 		},
 	},
 	plugins: [],
