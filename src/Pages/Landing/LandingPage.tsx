@@ -7,6 +7,7 @@ import Services from "./Sections/Services";
 import Tech from "./Sections/Tech";
 import Process from "./Sections/Process";
 import vGroup from "../../assets/vGroup.svg";
+import JoinSection from "./Sections/JoinSection";
 interface ComponentProps {
 	className: string;
 }
@@ -28,6 +29,7 @@ const LandingPage: React.FC<ComponentProps> = ({ className }) => {
 			<Services />
 			<Tech />
 			<Process />
+			<JoinSection />
 		</div>
 	);
 };
