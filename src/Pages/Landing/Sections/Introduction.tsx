@@ -1,6 +1,7 @@
 import React from "react";
 import PrimaryButton from "../../../Components/Ui/PrimaryButton";
 import Image from "../../../assets/pexels-shvets-production-7562014 1.png";
+import vGroup2 from "../../../assets/vGroup2.svg";
 
 interface ComponentProps {
 	className: string;
@@ -8,7 +9,10 @@ interface ComponentProps {
 
 const Introduction: React.FC<ComponentProps> = ({ className }) => {
 	return (
-		<div className={`space-y-28 ${className}`}>
+		<div
+			className={`space-y-28 bg-no-repeat ${className}`}
+			style={{ backgroundImage: `url(${vGroup2})` }}
+		>
 			<div className="flex justify-between">
 				<div>
 					<p className="text-white text-3xl font-bold">

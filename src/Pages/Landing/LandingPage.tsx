@@ -5,7 +5,8 @@ import Information from "../../Components/Ui/Information";
 import Introduction from "./Sections/Introduction";
 import Services from "./Sections/Services";
 import Tech from "./Sections/Tech";
-
+import Process from "./Sections/Process";
+import vGroup from "../../assets/vGroup.svg";
 interface ComponentProps {
 	className: string;
 }
@@ -14,13 +15,19 @@ const LandingPage: React.FC<ComponentProps> = ({ className }) => {
 		<div
 			className={`${className} space-y-20 justify-center flex flex-col items-center`}
 		>
-			<Navbar className="pt-6" />
-			<HeroSections className="w-full" />
-			<Information className="" />
+			{" "}
+			<div
+				className="space-y-20 "
+				style={{ backgroundImage: `url(${vGroup})` }}
+			>
+				<Navbar className="pt-6" />
+				<HeroSections className="w-full" />
+				<Information className="" />
+			</div>
 			<Introduction className="" />
 			<Services />
 			<Tech />
-			<div></div>
+			<Process />
 		</div>
 	);
 };
