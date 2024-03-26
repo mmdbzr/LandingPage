@@ -8,6 +8,7 @@ import Tech from "./Sections/Tech";
 import Process from "./Sections/Process";
 import vGroup from "../../assets/vGroup.svg";
 import JoinSection from "./Sections/JoinSection";
+import Footer from "./Sections/Footer";
 interface ComponentProps {
 	className: string;
 }
@@ -30,6 +31,7 @@ const LandingPage: React.FC<ComponentProps> = ({ className }) => {
 			<Tech />
 			<Process />
 			<JoinSection />
+			<Footer />
 		</div>
 	);
 };
