@@ -1,4 +1,4 @@
-# Landing Page with : React + TypeScript + Vite
+# Landing Page with : React + TypeScript + TailwindCss
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
